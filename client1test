@@ -61,11 +61,17 @@
                 // Geçerli kullanıcı adı ve token, oyunu başlat
                 errorMessage.textContent = '';
                 alert('Giriş başarılı! Oyun başlıyor...');
-                // Buraya oyunun başlama kodlarını ekleyin
+                startGame();
             } else {
                 // Geçersiz kullanıcı adı veya token, hata mesajı göster
                 errorMessage.textContent = 'Geçersiz kullanıcı adı veya token, lütfen tekrar deneyin.';
             }
+        }
+
+        function startGame() {
+            // Oyun başlama kodlarını buraya ekleyin
+            // Örneğin, ana oyun sayfasına yönlendirin veya oyunu başlatacak kodları çağırın
+            window.location.href = 'https://starblast.io'; // Örnek olarak ana oyun sayfasına yönlendirir
         }
     </script>
 </body>
