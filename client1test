@@ -51,19 +51,20 @@
 
     <script>
         function login() {
-            const validTokens = ['token1', 'token2', 'token3']; // Geçerli tokenler
+            const validTokens = ['KSJDA9', 'UFDAS2']; // Geçerli tokenler
+            const validUsername = 'Zaxie'; // Geçerli kullanıcı adı
             const username = document.getElementById('username').value;
             const token = document.getElementById('token').value;
             const errorMessage = document.getElementById('error-message');
 
-            if (validTokens.includes(token)) {
-                // Geçerli token, oyunu başlat
+            if (validUsername === username && validTokens.includes(token)) {
+                // Geçerli kullanıcı adı ve token, oyunu başlat
                 errorMessage.textContent = '';
                 alert('Giriş başarılı! Oyun başlıyor...');
                 // Buraya oyunun başlama kodlarını ekleyin
             } else {
-                // Geçersiz token, hata mesajı göster
-                errorMessage.textContent = 'Geçersiz token, lütfen tekrar deneyin.';
+                // Geçersiz kullanıcı adı veya token, hata mesajı göster
+                errorMessage.textContent = 'Geçersiz kullanıcı adı veya token, lütfen tekrar deneyin.';
             }
         }
     </script>
