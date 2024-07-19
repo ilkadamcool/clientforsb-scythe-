@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starblast.io Giriş Ekranı</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ff69b4, #9400d3);
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input[type="text"], input[type="password"] {
+            margin: 10px;
+            padding: 10px;
+            width: 80%;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: #ff69b4;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #9400d3;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Starblast.io Giriş</h1>
+        <input type="text" id="username" placeholder="Kullanıcı Adı" required><br>
+        <input type="password" id="token" placeholder="Token" required><br>
+        <button onclick="login()">Giriş Yap</button>
+        <p id="error-message" style="color: red;"></p>
+    </div>
+
+    <script>
+        function login() {
+            const validTokens = ['token1', 'token2', 'token3']; // Geçerli tokenler
+            const username = document.getElementById('username').value;
+            const token = document.getElementById('token').value;
+            const errorMessage = document.getElementById('error-message');
+
+            if (validTokens.includes(token)) {
+                // Geçerli token, oyunu başlat
+                errorMessage.textContent = '';
+                alert('Giriş başarılı! Oyun başlıyor...');
+                // Buraya oyunun başlama kodlarını ekleyin
+            } else {
+                // Geçersiz token, hata mesajı göster
+                errorMessage.textContent = 'Geçersiz token, lütfen tekrar deneyin.';
+            }
+        }
+    </script>
+</body>
+</html>
