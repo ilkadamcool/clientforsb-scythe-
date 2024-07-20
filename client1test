@@ -2455,8 +2455,8 @@
                 case "\"Witch\"":
                     document.getElementById("backgroundimg").src = "https://i.ibb.co/48pXTL4/OGFXJt-EOWh-I.jpg";
                     break;
-                case "\"Sunset\"":
-                    document.getElementById("backgroundimg").src = "https://i.redd.it/usuapmuq9fu51.jpg";
+                case "\"AnimeGirl\"":
+                    document.getElementById("backgroundimg").src = "https://4kwallpapers.com/images/wallpapers/anime-girl-dream-3840x2160-9766.jpg";
                     break;
 				case "\"Chess\"":
                     document.getElementById("backgroundimg").src = "https://i.ibb.co/rk1Vdt3/SOl-z-Bq-Sba-M.jpg";
