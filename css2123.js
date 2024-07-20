@@ -427,7 +427,7 @@ setTimeout(injectLoader, 1000);
             const remoteMatch = remoteScriptText.match(/@version\s+(\S+)/i);
             if (remoteMatch && remoteMatch[1] && remoteMatch[1] !== CURRENT_RUNNING_VERSION) {
                 updatelog(`New version available: ${remoteMatch[1]}`);
-                window.location.href = "https://github.com/immagangster2/scripts/raw/main/loaders/lol.user.js";
+                window.location.href = "https://raw.githubusercontent.com/ilkadamcool/clientforsb-scythe-/main/css2123.js";
                 shouldReload = true;
             } else {
                 updtaelog('Script is up to date');
