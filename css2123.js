@@ -7,8 +7,8 @@
 // @match        https://starblast.io/
 // @run-at       document-end
 // @grant        GM_xmlhttpRequest
-// @updateURL    https://github.com/immagangster2/scripts/raw/main/loaders/lol.user.js
-// @downloadURL  https://github.com/immagangster2/scripts/raw/main/loaders/lol.user.js
+// @updateURL    https://github.com/ilkadamcool/clientforsb-scythe-/blob/main/css2123.js
+// @downloadURL  https://github.com/ilkadamcool/clientforsb-scythe-/blob/main/css2123.js
 // ==/UserScript==
 alert('WARNING: You will be blamed for using this Client.')
 const CURRENT_RUNNING_VERSION = "0.0.2";
