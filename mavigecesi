@@ -17826,8 +17826,8 @@
 							case "\"none\"":
 								document.getElementById("backgroundimg").src = "";
 								break;
-							case "\"Witch\"":
-								document.getElementById("backgroundimg").src = "https://i.ibb.co/48pXTL4/OGFXJt-EOWh-I.jpg";
+							case "\"Hollow Knight [G]\"":
+								document.getElementById("backgroundimg").src = "https://i.ibb.co/gmhXCbQ/2zfixgyq76881.gif";
 								break;
 							case "\"Şehir Gecesi\"":
 								document.getElementById("backgroundimg").src = "https://i.ibb.co/9nbWGWJ/resim-2024-08-13-180917434.png";
@@ -18413,7 +18413,7 @@
 					name: "Backgrounds",
 					value: "none",
 					type: "select",
-					options: ["none", "Witch", "Şehir Gecesi", "Gece Mavisi", "Sabah Mavisi", "Tanjiro", "Satoru Gojo" , "Yoriichi"],
+					options: ["none", "Hollow Knight [G]", "Şehir Gecesi", "Gece Mavisi", "Sabah Mavisi", "Tanjiro", "Satoru Gojo" , "Yoriichi"],
 					filter: "default,app,mobile"
 				},
                 language: {
