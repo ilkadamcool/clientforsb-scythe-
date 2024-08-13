@@ -17826,8 +17826,8 @@
 							case "\"none\"":
 								document.getElementById("backgroundimg").src = "";
 								break;
-							case "\"Hollow Knight [G]\"":
-								document.getElementById("backgroundimg").src = "https://i.ibb.co/gmhXCbQ/2zfixgyq76881.gif";
+							case "\"Witch\"":
+								document.getElementById("backgroundimg").src = "https://i.ibb.co/48pXTL4/OGFXJt-EOWh-I.jpg";
 								break;
 							case "\"Şehir Gecesi\"":
 								document.getElementById("backgroundimg").src = "https://i.ibb.co/9nbWGWJ/resim-2024-08-13-180917434.png";
@@ -18413,7 +18413,7 @@
 					name: "Backgrounds",
 					value: "none",
 					type: "select",
-					options: ["none", "Hollow Knight [G]", "Şehir Gecesi", "Gece Mavisi", "Sabah Mavisi", "Tanjiro", "Satoru Gojo" , "Yoriichi"],
+					options: ["none", "Witch", "Şehir Gecesi", "Gece Mavisi", "Sabah Mavisi", "Tanjiro", "Satoru Gojo" , "Yoriichi"],
 					filter: "default,app,mobile"
 				},
                 language: {
@@ -34514,4 +34514,22 @@
                 for (b = document.querySelectorAll("[data-translate-placeholder]"), a = 0, d = b.length; a < d; a++) v = b[a], v.setAttribute("placeholder", this.translate(v.getAttribute("data-translate-placeholder")));
                 for (z = document.querySelectorAll("[data-translate-tooltip]"), o = 0, c = z.length; o < c; o++) _ = z[o], _.setAttribute("data-tooltip", this.translate(_.getAttribute("data-translate-tooltip")));
                 if (Math.max(screen.width, screen.height) > 1e3) {
-                    if ("function" == typeof GiveAway || "function" == typeof PromoContest) retu
+                    if ("function" == typeof GiveAway || "function" == typeof PromoContest) return;
+                    for (e = document.querySelectorAll("[data-translate-base]"), i = "", r = 0, p = e.length; r < p; r++)
+                        if (t = e[r], i !== t.getAttribute("data-translate-base")) {
+                            for (i = t.getAttribute("data-translate-base"), S = !1, T = document.querySelectorAll("[data-translate-base=" + i + "]"), f = 0, I = T.length; f < I; f++) M = T[f], M.style.display = "none", M.getAttribute("lang") === this.getLang() && (S = !0, M.style.display = "block");
+                            if (!S)
+                                for (g = 0, O = e.length; g < O; g++) t = e[g], "en" === t.getAttribute("lang") && (t.style.display = "block")
+                        } for (s = document.querySelectorAll("[data-display-only]"), x = [], y = 0, m = s.length; y < m; y++) l = s[y], h = l.getAttribute("data-display-only").split(","), x.push(l.style.display = (w = this.getLang(), indexOf.call(h, w) >= 0 ? "block" : "none"));
+                    return x
+                }
+            }
+        }, t
+    }(), gamesettings = gamesettings || !1, translations = new Translations(gamesettings), t = function(t, e) {
+        return translations.translate(t, e)
+    }, texists = function(t, e) {
+        return translations.exists(t, e)
+    }, module.exports = translations;
+})();
+	</script>
+</body><div id="ext_installed_id"></div></html>
