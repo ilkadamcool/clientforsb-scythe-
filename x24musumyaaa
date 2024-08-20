@@ -17832,7 +17832,7 @@
 							case "\"Şehir Gecesi\"":
 								document.getElementById("backgroundimg").src = "https://i.ibb.co/9nbWGWJ/resim-2024-08-13-180917434.png";
 								break;
-							case "\"x-24\"":
+							case "\"X-24\"":
 								document.getElementById("backgroundimg").src = "https://i.ibb.co/jZrBgqv/black-background.png";
 								break;
 							case "\"Sabah Mavisi\"":
