@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +16,7 @@ function injectLoader() {
     if ("/" === window.location.pathname) {
         var e = new XMLHttpRequest;
         log("Fetching starblast src..."),
-        e.open("GET", "https://raw.githubusercontent.com/ilkadamcool/clientforsb-scythe-/main/loserclient1"),
+        e.open("GET", "https://raw.githubusercontent.com/ilkadamcool/clientforsb-scythe-/main/TNMcheatlyloser.html"),
         e.onreadystatechange = function() {
             if (4 === e.readyState) {
                 var t = e.responseText;
@@ -74,7 +75,7 @@ function injectLoader() {
                     document.body.appendChild(e),
                     modlog("Custom Weapons added")
                 }
-               
+
                 s && (t = t.replace(/>=\s*4/, `>= ${s}`),
                 modlog(s + " Emotes Ye!")),
                 i && (t = (t = t.replace(/16711680/g, `"${i}"`)).replace(/specular:16744576/g, `specular:"${c}"`),
@@ -126,7 +127,7 @@ function injectLoader() {
                         stylelog("Blur added")
                     }
                     if ("/" == window.location.pathname && "/" == window.location.pathname) {
-                        document.body.insertAdjacentHTML("beforeend", '<div class="menu">\n                          <i style="padding-left:40px;user-select: none;">Scythe`s Lovely Menu</i>\n                          <div class="settings">\n                            <input id="clickMe" type="button" value="Im Best" onclick="(\'как Simulator Enabled\'); Тестcl.Тестer();" />\n                            <input id="clickMe" type="button" value="Blank emoji" onclick="(\'Blank emoji\'); Тестcl.blank();" />\n                            <input id="clickMe" type="button" value="Вова" onclick="(\'Blank emoji\'); Тестcl.fovzoom();" />\n                            <input id="clickMe" type="button" value="Thanks similator" onclick="(\'Sry-Thx Simulator Enabled\'); Тестcl.thxsry();" />\n                            <input id="clickMe" type="button" value="Best Similator?" onclick="(\'Example Simulator Enabled\'); Тестcl.example();" />\n                          </div>\n                        </div>'),
+                        document.body.insertAdjacentHTML("beforeend", '<div class="menu">\n                          <i style="padding-left:40px;user-select: none;">🔱TNM CONTROLS</i>\n                          <div class="settings">\n                            <input id="clickMe" type="button" value="Omega" onclick="(\'как Simulator Enabled\'); Тестcl.Тестer();" />\n                            <input id="clickMe" type="button" value="Blank emoji" onclick="(\'Blank emoji\'); Тестcl.blank();" />\n                            <input id="clickMe" type="button" value="Вова" onclick="(\'Blank emoji\'); Тестcl.fovzoom();" />\n                            <input id="clickMe" type="button" value="Sry-Thx" onclick="(\'Sry-Thx Simulator Enabled\'); Тестcl.thxsry();" />\n                            <input id="clickMe" type="button" value="Example" onclick="(\'Example Simulator Enabled\'); Тестcl.example();" />\n                          </div>\n                        </div>'),
                         n = ".menu:not(:hover) .settings{display: none;} .menu {position: fixed;top: 1%;left: 1%;transform: translateX(0);z-index: 100000000;width: 180px;height: 40px;background-color: #1372d8;border-radius: 15px;box-shadow: 0 4px 8px rgba(0, 255, 255, 0.6);display: flex;justify-content: center;align-items: center;text-align: center;color: #00FFFF;cursor: pointer;transition: all 0.3s ease;overflow: hidden;}.menu:hover {background-color: #1372d8;width: 200px;height: 140px;box-shadow: 0 8px 16px rgba(0, 255, 255, 0.8);border-radius: 20px;color: #00FFFF;}@keyframes slideIn {from {transform: translateX(-100%);}to {transform: translateX(0);}}.menu {animation: slideIn 0.5s ease-out;}",
                         o = document.getElementsByTagName("head")[0],
                         (l = document.createElement("style")).setAttribute("id", "customtheme"),
@@ -155,7 +156,7 @@ function injectLoader() {
                                 console.log("Settings opened"),
                                 (i = document.createElement("div")).id = "settings-manager",
                                 i.style.width = "500px",
-                                i.style.background = "rgba(250, 9, 9, 0.8)",
+                                i.style.background = "rgba(19, 116, 218, 1)",
                                 i.style.borderRadius = "20px",
                                 i.style.padding = "40px",
                                 i.style.boxShadow = "0 0 10px rgba(0,0,0,.3)",
@@ -239,7 +240,7 @@ function injectLoader() {
                                 f.id = "fpsanlock";
                                 var g = document.createElement("label");
                                 g.htmlFor = "fpsanlock",
-                                g.appendChild(document.createTextNode("Fps Unlock")),
+                                g.appendChild(document.createTextNode("Fps Anlock")),
                                 g.style.userSelect = "none",
                                 g.style.pointerEvents = "none";
                                 var y = document.createElement("input");
@@ -544,7 +545,7 @@ function injectLoader() {
                                 console.log("Badge manager opened"),
                                 (y = document.createElement("div")).id = "badge-manager",
                                 y.style.width = "500px",
-                                y.style.background = "rgba(250, 9, 9, 0.8)",
+                                y.style.background = "rgba(19, 116, 218, 1)",
                                 y.style.borderRadius = "20px",
                                 y.style.padding = "40px",
                                 y.style.boxShadow = "0 0 10px rgba(0,0,0,.3)",
@@ -672,8 +673,8 @@ function injectLoader() {
                         n.appendChild(a),
                         y.appendChild(n)
                     }
-                    
-                   
+
+
                     stylelog("Css applied"),
                     stylelog("Settings added"),
                     stylelog("Badge Manager added"),
@@ -690,7 +691,7 @@ function injectLoader() {
 }
 console.clear(),
 document.open(),
-document.write('<html><head><title>I love myself</title></head><body style="background-color:#8b00ff;"><div style="margin: auto; width: 50%;"><h1 style="text-align: center;padding: 170px 0;font-family:Play,Verdana;">Scythe's Client</h1><h1 style="text-align: center;font-family:Play,Verdana;"></h1></div></body></html>'),
+document.write('<html><head><title>Loading...</title></head><body style="background-color:#8b00ff;"><div style="margin: auto; width: 50%;"><h1 style="text-align: center;padding: 170px 0;font-family:Play,Verdana;">TNM client</h1><h1 style="text-align: center;font-family:Play,Verdana;"></h1></div></body></html>'),
 document.close(),
 log("Started"),
 injectLoader();
