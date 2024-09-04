@@ -690,7 +690,7 @@ function injectLoader() {
 }
 console.clear(),
 document.open(),
-document.write('<html><head><title>I love myself</title></head><body style="background-color:#8b00ff;"><div style="margin: auto; width: 50%;"><h1 style="text-align: center;padding: 170px 0;font-family:Play,Verdana;">TNM client</h1><h1 style="text-align: center;font-family:Play,Verdana;"></h1></div></body></html>'),
+document.write('<html><head><title>I love myself</title></head><body style="background-color:#8b00ff;"><div style="margin: auto; width: 50%;"><h1 style="text-align: center;padding: 170px 0;font-family:Play,Verdana;">L client</h1><h1 style="text-align: center;font-family:Play,Verdana;"></h1></div></body></html>'),
 document.close(),
 log("Started"),
 injectLoader();
