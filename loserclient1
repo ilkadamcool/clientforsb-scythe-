@@ -834,9 +834,9 @@ transition: .5s ease;
 
             .inputwrapper {
                 display: inline-block;
-                box-shadow:inset 0px 1px 0px -50px rgba(0, 189, 163, 1);
+                box-shadow:inset 0px 1px 0px -50px rgb(207, 230, 4);
   text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
-  background:linear-gradient(rgba(19, 116, 218, 1), rgba(33, 54, 228, 1));
+  background:linear-gradient(rgb(218, 132, 19), rgb(243, 7, 7));
 
                 border-radius: 4px;
                 height: 43px;
@@ -893,7 +893,7 @@ transition: .5s ease;
                 font-size: .8em;
                 text-align: center;
                 text-transform: uppercase;
-                border: 0 solid rgba(19, 116, 218, 1);
+                border: 0 solid rgb(238, 67, 0);
                 width: 415px;
                 font-family:Comic Sans MS;
                 font-weight:bold;
@@ -902,10 +902,10 @@ transition: .5s ease;
                 border-radius:40px;
                 color: #EEE;
                 outline: 0;
-                background:linear-gradient(rgba(19, 116, 218, 1), rgba(33, 54, 228, 1));
+                background:linear-gradient(rgb(235, 144, 7), rgba(rgb(235, 13, 5)
 
                 transition: all .5s ease;
-                text-shadow: 0 0 7px rgb(77, 65, 241)
+                text-shadow: 0 0 7px rgb(243, 134, 10)
             }
 
             .stats input,.ecpinput {
@@ -917,11 +917,11 @@ transition: .5s ease;
                 width: 350px;
                 outline: 0;
                 transition: all .5s ease;
-                background:linear-gradient(rgba(19, 116, 218, 1), rgba(33, 54, 228, 1));
+                background:linear-gradient(rgb(218, 109, 19), rgb(238, 8, 8));
 
 
 color:rgba(255, 255, 255, 1);
-border-color:rgba(33, 30, 238, 1);
+border-color:rgb(231, 0, 0);
 font-family:Comic Sans MS;
 font-weight:bold;
 font-style:italic;
@@ -976,11 +976,11 @@ text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
                 cursor: pointer;
                 margin: 20px 0 20px 0;
                 text-align: center;
-                background:linear-gradient(rgba(19, 116, 218, 1), rgba(33, 54, 228, 1));
+                background:linear-gradient(rgb(230, 116, 9), rgb(243, 3, 3));
 
 
 color:rgba(255, 255, 255, 1);
-border-color:rgba(33, 30, 238, 1);
+border-color:rgb(238, 30, 30);
 font-family:Comic Sans MS;
 font-weight:bold;
 font-style:italic;
@@ -988,7 +988,7 @@ border-top-left-radius:13px;
 border-top-right-radius:13px;
 border-bottom-left-radius:13px;
 border-bottom-right-radius:13px;
-box-shadow:inset 0px 1px 0px -50px rgba(0, 189, 163, 1);
+box-shadow:inset 0px 1px 0px -50px rgb(189, 76, 0);
 text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
                 border: 0
             }
