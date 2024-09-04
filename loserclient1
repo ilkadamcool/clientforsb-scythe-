@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>STARBLAST.IO</title>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui=1">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="manifest" href="https://starblast.io/manifest.json">
-  <meta name="description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
-  <meta name="keywords" content="io, starblastio, starblast, iogame, star wars, shoot'em up, spaceship, game, games, web game, io games, html5, fun, flash">
-  <meta property="og:title" content="starblast.io">
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
-  <meta property="og:url" content="https://starblast.io/">
-  <meta property="og:site_name" content="starblast.io">
-  <meta property="og:image" content="https://starblast.io/static/img/starblast.png?2">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@starblast_io">
-  <meta name="twitter:creator" content="@neuronality">
-  <meta name="twitter:title" content="Starblast.io, free online shoot'em up">
-  <meta name="twitter:description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
-  <meta name="twitter:image" content="https://starblast.io/static/img/starblast.png?2">
-  <link rel="icon" type="image/png" href="https://starblast.io/static/img/icon64.png">
-  <link rel="image_src" href="https://starblast.io/static/img/starblast.png?2">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
+    <head>
+        <title>STARBLAST.IO</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui=1">
+        <meta charset="UTF-8">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="manifest" href="https://starblast.io/manifest.json">
+        <meta name="description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
+        <meta name="keywords" content="io, starblastio, starblast, iogame, star wars, shoot'em up, spaceship, game, games, web game, io games, html5, fun, flash">
+        <meta property="og:title" content="starblast.io">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
+        <meta property="og:url" content="https://starblast.io/">
+        <meta property="og:site_name" content="starblast.io">
+        <meta property="og:image" content="https://starblast.io/static/img/starblast.png?2">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@starblast_io">
+        <meta name="twitter:creator" content="@neuronality">
+        <meta name="twitter:title" content="Starblast.io, free online shoot'em up">
+        <meta name="twitter:description" content="Multiplayer Arcade Space Shooter io Game! Shoot asteroids and enemies to collect crystals. Upgrade your ship before you get killed!">
+        <meta name="twitter:image" content="https://starblast.io/static/img/starblast.png?2">
+        <link rel="icon" type="image/png" href="https://starblast.io/static/img/icon64.png"/>
+        <link rel="image_src" href="https://starblast.io/static/img/starblast.png?2">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
               @font-face {
                 font-family: 'SBGlyphs';
                 src: url('https://starblast.data.neuronality.com/fonts/starblast-glyphs.ttf?v=1');
@@ -729,7 +730,7 @@
                 font-weight:bold;
   font-style:italic;
   transform: scale(1.25);
-  transition: .5s ease;
+transition: .5s ease;
   border-top-left-radius:13px;
   border-top-right-radius:13px;
   border-bottom-left-radius:13px;
@@ -780,7 +781,7 @@
                 background:linear-gradient(rgba(247, 72, 3), rgba(228, 33, 33));
 
 
-  color:rgba(255, 255, 255, 1);
+color:rgba(255, 255, 255, 1);
   border-top-left-radius:13px;
   border-top-right-radius:13px;
   border-bottom-left-radius:13px;
@@ -807,7 +808,7 @@
   text-shadow:inset 0px 1px 0px #c70067;
   background:linear-gradient(#ff5bb0, #ef027d);
   transform: scale(1.25);
-  transition: .5s ease;
+transition: .5s ease;
             }
 
             .hide {
@@ -919,17 +920,17 @@
                 background:linear-gradient(rgba(241, 157, 1), rgba(230, 9, 9));
 
 
-  color:rgba(255, 255, 255, 1);
-  border-color:rgba(236, 5, 5);
-  font-family:Comic Sans MS;
-  font-weight:bold;
-  font-style:italic;
-  border-top-left-radius:13px;
-  border-top-right-radius:13px;
-  border-bottom-left-radius:13px;
-  border-bottom-right-radius:13px;
-  box-shadow:inset 0px 1px 0px -50px rgba(245, 169, 6);
-  text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
+color:rgba(255, 255, 255, 1);
+border-color:rgba(236, 5, 5);
+font-family:Comic Sans MS;
+font-weight:bold;
+font-style:italic;
+border-top-left-radius:13px;
+border-top-right-radius:13px;
+border-bottom-left-radius:13px;
+border-bottom-right-radius:13px;
+box-shadow:inset 0px 1px 0px -50px rgba(245, 169, 6);
+text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
                 border-radius: 4px;
                 font-size: 1.2em
             }
@@ -978,17 +979,17 @@
                 background:linear-gradient(rgba(218, 109, 19), rgba(247, 140, 0));
 
 
-  color:rgba(255, 255, 255, 1);
-  border-color:rgba(245, 10, 10);
-  font-family:Comic Sans MS;
-  font-weight:bold;
-  font-style:italic;
-  border-top-left-radius:13px;
-  border-top-right-radius:13px;
-  border-bottom-left-radius:13px;
-  border-bottom-right-radius:13px;
-  box-shadow:inset 0px 1px 0px -50px rgba(252, 107, 10);
-  text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
+color:rgba(255, 255, 255, 1);
+border-color:rgba(245, 10, 10);
+font-family:Comic Sans MS;
+font-weight:bold;
+font-style:italic;
+border-top-left-radius:13px;
+border-top-right-radius:13px;
+border-bottom-left-radius:13px;
+border-bottom-right-radius:13px;
+box-shadow:inset 0px 1px 0px -50px rgba(252, 107, 10);
+text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
                 border: 0
             }
 
@@ -1006,7 +1007,7 @@
   color:rgba(255, 255, 255, 1);
   border-color:rgba(128, 7, 255, 1);
   transform: scale(1.25);
-  transition: .5s ease;
+transition: .5s ease;
                 font-family:Comic Sans MS;
                 color: #FFF
 
@@ -1052,17 +1053,17 @@
                 background:linear-gradient(rgba(250, 143, 3), rgba(228, 33, 33));
 
 
-  color:rgba(255, 255, 255, 1);
-  border-color:rgba(238, 44, 30);
-  font-family:Comic Sans MS;
-  font-weight:bold;
-  font-style:italic;
-  border-top-left-radius:13px;
-  border-top-right-radius:13px;
-  border-bottom-left-radius:13px;
-  border-bottom-right-radius:13px;
-  box-shadow:inset 0px 1px 0px -50px rgba(189, 60, 0);
-  text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
+color:rgba(255, 255, 255, 1);
+border-color:rgba(238, 44, 30);
+font-family:Comic Sans MS;
+font-weight:bold;
+font-style:italic;
+border-top-left-radius:13px;
+border-top-right-radius:13px;
+border-bottom-left-radius:13px;
+border-bottom-right-radius:13px;
+box-shadow:inset 0px 1px 0px -50px rgba(189, 60, 0);
+text-shadow:inset -4px 1px 0px rgba(0, 0, 0, 1);
             }
 
             #play.orange:hover {
@@ -1762,8 +1763,8 @@
   border-color:rgba(128, 7, 255, 1);
                 font-family:Comic Sans MS;
                 color: #FFF
-  transform: scale(1.25);
-  transition: .5s ease;
+transform: scale(1.25);
+transition: .5s ease;
 
             }
 
@@ -2252,8 +2253,8 @@
   border-color:rgba(128, 7, 255, 1);
                 font-family:Comic Sans MS;
                 color: #FFF
-  transform: scale(1.25);
-  transition: .5s ease;
+transform: scale(1.25);
+transition: .5s ease;
 
                 padding: 5px 20px
             }
@@ -2654,23 +2655,19 @@
             .atcb_bgoverlay.atcb_click:hover {
                 cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill-rule='evenodd' d='M11.991.69a2.35 2.35 0 0 1 3.318-.009c.918.911.922 2.392.009 3.307l-4.009 4.014 4.013 4.018c.906.909.893 2.38-.027 3.287a2.35 2.35 0 0 1-3.307-.004l-3.985-3.99-3.993 3.997a2.35 2.35 0 0 1-3.318.009c-.918-.911-.922-2.392-.009-3.307l4.009-4.014L.678 3.98C-.228 3.072-.215 1.6.706.693a2.35 2.35 0 0 1 3.307.004l3.985 3.99z'/%3E%3C/svg%3E") 32 32,pointer
             }
-  </style>
-</head>
-<body oncontextmenu="return false;">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49553618-3"></script> 
-  <script>
-
-
+        </style>
+    </head>
+    <body oncontextmenu="return false;">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49553618-3"></script>
+        <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
             }
             gtag('js', new Date());
             gtag('config', 'UA-49553618-3');
-  </script> 
-  <script>
-
-
+        </script>
+        <script>
             function updateBackground() {
                 var backgroundId = localStorage.getItem("backgrounds");
     
@@ -2717,201 +2714,299 @@
                     }
                 });
             });
-  </script>
-  <div id="canvaswrapper"></div>
-  <div id="overlay">
-    <div id="preroll"></div>
-    <div id="cgpreroll" style="z-index:999; background:rgba(0,0,0,.8); display:none; position:absolute; top:0; left:0; width:100vw; height:100vh;"></div>
-    <div class="adblock frozenbg">
-      <span data-translate="Your ad-blocker may cause connection problems. Please disable it on Starblast.io to avoid any trouble.">Your ad-blocker may cause connection problems. Please disable it on Starblast.io to avoid any trouble.</span>
-    </div>
-    <div class="top-right">
-      <div class="acw-new" data-translate-base="acw_new" lang="fr">
-        <div class="alphacentauri">
-          <img style="box-shadow: 0px 0px 6px hsla(200,100%,80%,1)" src="https://starblast.data.neuronality.com/events/aow-expanding.jpg" title="Alpha orionis wars" alt="aow-expanding">
-          <div class="countdown"></div><a class="join-alpha-centauri" style="display:none;" href="#"><button class="frozenbg" style="width:100%; padding:10px 0; margin:10px 0; font-size:1.1vw;">REJOINDRE LA BATAILLE</button></a>
-          <div class="event-time"></div>
-        </div>
-      </div>
-      <div class="acw-new" data-translate-base="acw_new" lang="en">
-        <div class="alphacentauri">
-          <img style="box-shadow: 0px 0px 6px hsla(200,100%,80%,1)" src="https://starblast.data.neuronality.com/events/aow-expanding.jpg" title="Alpha orionis wars" alt="aow-expanding">
-          <div class="countdown"></div><a class="join-alpha-centauri" style="display:none;" href="#"><button class="frozenbg" style="width:100%; padding:10px 0; margin:10px 0; font-size:1.2vw;">JOIN THE BATTLE</button></a>
-          <div class="event-time"></div>
-        </div>
-      </div>
-      <div style="background:rgba(0,0,0,.5); border-bottom: 3px solid hsla(200,30%,30%,1); padding:10px 0" id="calendar_event"></div>
-    </div>
-    <div class="top-left">
-      <div class="adsbyvli" data-ad-slot="vi_462315137"></div>
-    </div>
-    <div id="content">
-      <div id="logo"></div>
-      <form id="player" class="hide" name="player">
-        <div class="inputwrapper">
-          <div class="colorwrapper"></div><input tabindex="0" type="text" maxlength="16" data-translate-placeholder="Your commander name">
-        </div>
-        <div id="colors" style="display:none;"></div>
-        <div class="playbtn noselect">
-          <i id="prevMode" class="fa fa-caret-left"></i> <button id="play"><span data-translate="PLAY">PLAY</span></button>
-          <div id="game_modes">
-            <button id="play"></button>
-          </div><i id="nextMode" class="fa fa-caret-right"></i>
-        </div>
-      </form>
-      <div id="connection_lost">
-        <span class="cry">:(</span>
-        <div data-translate="Your connection has been lost">
-          Your connection has been lost
-        </div>
-        <div id="serverip"></div>
-      </div>
-      <div id="adblocked_message">
-        <span class="cry">:(</span>
-        <div data-translate="Advertising helps us fund server costs and game development.">
-          Advertising helps us fund server costs and game development.
-        </div>
-        <div data-translate="Please disable your adblocker for Starblast.io and you will never see this page again!">
-          Please disable your adblocker for Starblast.io and you will never see this page again!
-        </div>
-        <div data-translate="Don't want to see ads? Buy your ECP, remove all ads and get cool bonus features!">
-          Don't want to see ads? Buy your ECP, remove all ads and get cool bonus features!
-        </div>
-        <div data-translate="Thank you :)">
-          Thank you :)
-        </div>
-        <div class="text-centered">
-          <button class="donate-btn">10</button>
-        </div>
-      </div>
-      <div id="game_over">
-        <div id="gameovermsg" data-translate="Game Over">
-          Game Over
-        </div>
-        <div id="goinfo"></div>
-      </div>
-      <div id="respawn">
-        <div class="stats"></div>
-        <div id="respawn_actions">
-          <button id="continue_btn" data-translate="Continue">Continue</button> <button id="respawn_btn" data-translate="Respawn">Respawn</button> <button id="refresh_btn"><span data-translate="Quit">Quit</span> (<span id="menucountdown"></span> )</button>
-        </div>
-      </div>
-      <div class="pStJ7">
-        <ins id="_outbd_3"></ins><br>
-        <div id="home"></div>
-        <div id="home_mobile"></div>
-      </div>
-      <div id="respawn_swap"></div>
-      <div class="gameloader">
-        <div class="gameloaderwrapper">
-          <div class="loaderprogress"></div>
-        </div>
-        <div class="textprogress" data-translate="Loading...">
-          Loading...
-        </div>
-        <div class="tutorial">
-          <div class="desktop">
-            <table>
-              <tr>
-                <td class="mouse">
-                  <div class="mouse-container">
-                    <div class="mouse-top">
-                      <div class="mouse-left"></div>
-                      <div class="mouse-right"></div>
+        </script>
+        <div id="canvaswrapper"></div>
+        <div id="overlay">
+            <div id="preroll"></div>
+            <div id="cgpreroll" style="z-index:999; background:rgba(0,0,0,.8); display:none; position:absolute; top:0; left:0; width:100vw; height:100vh;"></div>
+            <div class="adblock frozenbg">
+                <span data-translate="Your ad-blocker may cause connection problems. Please disable it on Starblast.io to avoid any trouble.">Your ad-blocker may cause connection problems. Please disable it on Starblast.io to avoid any trouble.</span>
+            </div>
+            <div class="top-right">
+                <div class="acw-new" data-translate-base="acw_new" lang="fr">
+                    <div class="alphacentauri">
+                        <img style="box-shadow: 0px 0px 6px hsla(200,100%,80%,1)" src="https://starblast.data.neuronality.com/events/aow-expanding.jpg" title="Alpha orionis wars">
+                        <div class="countdown"></div>
+                        <a class="join-alpha-centauri" style="display:none;" href="#">
+                            <button class="frozenbg" style="width:100%; padding:10px 0; margin:10px 0; font-size:1.1vw;">REJOINDRE LA BATAILLE</button>
+                        </a>
+                        <div class="event-time"></div>
                     </div>
+                </div>
+                <div class="acw-new" data-translate-base="acw_new" lang="en">
+                    <div class="alphacentauri">
+                        <img style="box-shadow: 0px 0px 6px hsla(200,100%,80%,1)" src="https://starblast.data.neuronality.com/events/aow-expanding.jpg" title="Alpha orionis wars">
+                        <div class="countdown"></div>
+                        <a class="join-alpha-centauri" style="display:none;" href="#">
+                            <button class="frozenbg" style="width:100%; padding:10px 0; margin:10px 0; font-size:1.2vw;">JOIN THE BATTLE</button>
+                        </a>
+                        <div class="event-time"></div>
+                    </div>
+                </div>
+                <div style="background:rgba(0,0,0,.5); border-bottom: 3px solid hsla(200,30%,30%,1); padding:10px 0" id="calendar_event"></div>
+            </div>
+            <div class="top-left">
+                <div class="adsbyvli" data-ad-slot="vi_462315137"></div>
+            </div>
+            <div id="content">
+                <div id="logo"></div>
+                <form id="player" class="hide">
+                    <div class="inputwrapper">
+                        <div class="colorwrapper">
+                            <span class="colorchosen"></span>
+                        </div>
+                        <input tabindex="0" type="text" maxlength="16" data-translate-placeholder="Your commander name">
+                    </div>
+                    <div id="colors" style="display:none;"></div>
+                    <div class="playbtn noselect">
+                        <i id="prevMode" class="fa fa-caret-left"></i>
+                        <button id="play">
+                            <span data-translate="PLAY">PLAY</span>
+                            <div id="game_modes"></div>
+                        </button>
+                        <i id="nextMode" class="fa fa-caret-right"></i>
+                    </div>
+                </form>
+                <div id="connection_lost">
+                    <span class="cry">:(</span>
+                    <div data-translate="Your connection has been lost">Your connection has been lost</div>
+                    <div id="serverip"></div>
+                </div>
+                <div id="adblocked_message">
+                    <span class="cry">:(</span>
+                    <div data-translate="Advertising helps us fund server costs and game development.">Advertising helps us fund server costs and game development.</div>
+                    <div data-translate="Please disable your adblocker for Starblast.io and you will never see this page again!">Please disable your adblocker for Starblast.io and you will never see this page again!</div>
+                    <div data-translate="Don't want to see ads? Buy your ECP, remove all ads and get cool bonus features!">Don't want to see ads? Buy your ECP, remove all ads and get cool bonus features!</div>
+                    <div data-translate="Thank you :)">Thank you :)</div>
+                    <div class="text-centered">
+                        <button class="donate-btn">10</button>
+                    </div>
+                </div>
+                <div id="game_over">
+                    <div id="gameovermsg" data-translate="Game Over">Game Over</div>
+                    <div id="goinfo"></div>
+                </div>
+                <div id="respawn">
+                    <div class="stats"></div>
+                    <div id="respawn_actions">
+                        <button id="continue_btn" data-translate="Continue">Continue</button>
+                        <button id="respawn_btn" data-translate="Respawn">Respawn</button>
+                        <button id="refresh_btn">
+                            <span data-translate="Quit">Quit</span>
+                            (<span id="menucountdown"></span>
+                            )
+                        </button>
+                    </div>
+                </div>
+                <div class="pStJ7">
+                    <ins id="_outbd_3"></ins>
+                    <br>
+                    <div id="home"></div>
+                    <div id="home_mobile"></div>
+                </div>
+                <div id="respawn_swap"></div>
+                <div class="gameloader">
+                    <div class="gameloaderwrapper">
+                        <div class="loaderprogress"></div>
+                    </div>
+                    <div class="textprogress" data-translate="Loading...">Loading...</div>
+                    <div class="tutorial">
+                        <div class="desktop">
+                            <table>
+                                <tr>
+                                    <td class="mouse">
+                                        <div class="mouse-container">
+                                            <div class="mouse-top">
+                                                <div class="mouse-left">
+                                                    <i class="fa fa-fire"></i>
+                                                </div>
+                                                <div class="mouse-right">
+                                                    <i class="fa fa-arrows"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="keyboard">
+                                        <div class="top">
+                                            <span class="large">
+                                                <i class="kb-z">Z</i>
+                                            </span>
+                                            <span data-translate="ScreenShot">ScreenShot</span>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="large">
+                                                <i class="kb-ctrl">CTRL</i>
+                                            </span>
+                                            <span id="rcstuto" data-translate="RCS Toggle">RCS Toggle</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="mobile">
+                            <div class="joystick-container">
+                                <i class="mobile-top fa fa-caret-up"></i>
+                                <i class="mobile-right fa fa-caret-right"></i>
+                                <i class="mobile-bottom fa fa-caret-down"></i>
+                                <i class="mobile-left fa fa-caret-left"></i>
+                            </div>
+                            <i class="mobile-fire fa fa-fire"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-social">
+                <i class="sbg sbg-facebook"></i>
+                <br/>
+                <i class="sbg sbg-twitter"></i>
+            </div>
+            <div class="mobile-tools">
+                <i class="sbg sbg-info"></i>
+                <br/>
+                <i class="sbg sbg-gears"></i>
+                <br/>
+                <i id="donate_mobile" class="sbg sbg-trophy"></i>
+            </div>
+            <div class="bottom-left">
+                <div class="changelog-new" data-translate-base="changelog_new" lang="en">
+                    <div>
+                        <h2 style="text-align:center">
+                            <i class="fa fa-star"></i>
+                            Scythe<i class="fa fa-star"></i>
+                        </h2>
+                        <p> This is Scythe's cheat one client (no one must have it lmao)
+        </p>
+                        <p style="text-align:center;">
+                            <a target="_blank" href="https://starblast-shipyard.github.io/" alt="Loveship shipyard" style="text-decoration: underline">Starblast Shipyard</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="changelog-new" data-translate-base="changelog_new" lang="fr">
+                    <div>
+                        <p style="text-align:center;">
+                            <a target="_blank" href="https://starblast-shipyard.github.io/" alt="Loveship exoplanet shipyard" style="text-decoration: underline">Starblast Shipyard</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="textcentered community changelog-new" data-translate-base="thing" lang="en">
+                    <marquee scrollamount="2" height="20" width="100%" direction="right">
+    
+                     I love myselfff awww ❤️❤️❤️❤️❤️❤️❤️
+    
+                    </marquee>
                   </div>
-                </td>
-                <td class="keyboard">
-                  <div class="top">
-                    <span class="large"><i class="kb-z">Z</i></span> <span data-translate="ScreenShot">ScreenShot</span>
-                  </div>
-                  <div class="bottom">
-                    <span class="large"><i class="kb-ctrl">CTRL</i></span> <span id="rcstuto" data-translate="RCS Toggle">RCS Toggle</span>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div class="mobile">
-            <div class="joystick-container"></div>
-          </div>
+    
+                <div class="textcentered community changelog-new" data-translate-base="music" lang="en">
+                    <a href="https://open.spotify.com/user/gilpom/playlist/47N9rRbMXezlPXvhqVM3lJ?si=6bHzE9A9S-2TGh7C4OndkA" target="_blank">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                            <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.56-8-8-8zm3.68 11.56c-.16.24-.44.32-.68.16-1.88-1.16-4.24-1.4-7.04-.76-.28.08-.52-.12-.6-.36-.08-.28.12-.52.36-.6 3.04-.68 5.68-.4 7.76.88.28.12.32.44.2.68zm.96-2.2c-.2.28-.56.4-.84.2-2.16-1.32-5.44-1.72-7.96-.92-.32.08-.68-.08-.76-.4-.08-.32.08-.68.4-.76 2.92-.88 6.52-.44 9 1.08.24.12.36.52.16.8zm.08-2.24C10.16 5.6 5.88 5.44 3.44 6.2c-.4.12-.8-.12-.92-.48-.12-.4.12-.8.48-.92 2.84-.84 7.52-.68 10.48 1.08.36.2.48.68.28 1.04-.2.28-.68.4-1.04.2z" fill-rule="nonzero"/>
+                        </svg>
+                        <br>Spoteefly
+                    </a>
+                    <a href="https://www.deezer.com/playlist/5343057502" target="_blank">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                            <path d="M9.812 12.464h2.917v-.884H9.81v.884zm-6.54 0h2.916v-.884H3.27v.884zm-3.272 0h2.917v-.884H0v.884zm6.54 0h2.92v-.884H6.54v.884zm6.543 0H16v-.884h-2.917v.884zm0-1.15H16v-.883h-2.917v.89zm-6.542 0h2.92v-.883H6.54v.89zm-6.54 0h2.92v-.883H0v.89zm3.27 0h2.92v-.883H3.27v.89zm6.55 0h2.92v-.883H9.81v.89zm0-1.148h2.92v-.884H9.81v.884zm-6.54 0h2.91v-.884H3.27v.884zm-3.27 0h2.91v-.884H0v.884zm6.54 0h2.92v-.884H6.54v.884zm6.55 0H16v-.884h-2.917v.884zm0-1.15H16v-.883h-2.917v.884zm-6.54 0h2.91v-.883H6.54v.884zm-6.54 0h2.91v-.883H0v.884zm9.82 0h2.92v-.883H9.81v.884zm0-1.15h2.92v-.882H9.81v.883zm-9.82 0h2.91v-.88H0v.882zm6.54 0h2.92v-.88H6.54v.882zm6.54 0H16v-.882h-2.917v.884zM6.54 6.72h2.92v-.885H6.54v.884zm6.543-.002H16v-.883h-2.917v.883zM6.54 5.57h2.92v-.885H6.54v.885zm6.543 0H16v-.885h-2.917v.884zm0-1.15H16v-.884h-2.917v.884z"/>
+                        </svg>
+                        <br>Deeeznuts
+                    </a>
+                </div>
+                <div class="textcentered community changelog-new" data-translate-base="music" lang="fr">
+                    <a href="https://open.spotify.com/user/gilpom/playlist/47N9rRbMXezlPXvhqVM3lJ?si=6bHzE9A9S-2TGh7C4OndkA" target="_blank">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                            <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.56-8-8-8zm3.68 11.56c-.16.24-.44.32-.68.16-1.88-1.16-4.24-1.4-7.04-.76-.28.08-.52-.12-.6-.36-.08-.28.12-.52.36-.6 3.04-.68 5.68-.4 7.76.88.28.12.32.44.2.68zm.96-2.2c-.2.28-.56.4-.84.2-2.16-1.32-5.44-1.72-7.96-.92-.32.08-.68-.08-.76-.4-.08-.32.08-.68.4-.76 2.92-.88 6.52-.44 9 1.08.24.12.36.52.16.8zm.08-2.24C10.16 5.6 5.88 5.44 3.44 6.2c-.4.12-.8-.12-.92-.48-.12-.4.12-.8.48-.92 2.84-.84 7.52-.68 10.48 1.08.36.2.48.68.28 1.04-.2.28-.68.4-1.04.2z" fill-rule="nonzero"/>
+                        </svg>
+                        <br>Spoteefly
+                    </a>
+                    <a href="https://www.deezer.com/playlist/5343057502" target="_blank">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                            <path d="M9.812 12.464h2.917v-.884H9.81v.884zm-6.54 0h2.916v-.884H3.27v.884zm-3.272 0h2.917v-.884H0v.884zm6.54 0h2.92v-.884H6.54v.884zm6.543 0H16v-.884h-2.917v.884zm0-1.15H16v-.883h-2.917v.89zm-6.542 0h2.92v-.883H6.54v.89zm-6.54 0h2.92v-.883H0v.89zm3.27 0h2.92v-.883H3.27v.89zm6.55 0h2.92v-.883H9.81v.89zm0-1.148h2.92v-.884H9.81v.884zm-6.54 0h2.91v-.884H3.27v.884zm-3.27 0h2.91v-.884H0v.884zm6.54 0h2.92v-.884H6.54v.884zm6.55 0H16v-.884h-2.917v.884zm0-1.15H16v-.883h-2.917v.884zm-6.54 0h2.91v-.883H6.54v.884zm-6.54 0h2.91v-.883H0v.884zm9.82 0h2.92v-.883H9.81v.884zm0-1.15h2.92v-.882H9.81v.883zm-9.82 0h2.91v-.88H0v.882zm6.54 0h2.92v-.88H6.54v.882zm6.54 0H16v-.882h-2.917v.884zM6.54 6.72h2.92v-.885H6.54v.884zm6.543-.002H16v-.883h-2.917v.883zM6.54 5.57h2.92v-.885H6.54v.885zm6.543 0H16v-.885h-2.917v.884zm0-1.15H16v-.884h-2.917v.884z"/>
+                        </svg>
+                        <br>Deeeznuts
+                    </a>
+                </div>
+                <div class="textcentered community changelog-new" data-translate-base="community" lang="en">
+                    <a href="https://www.reddit.com/r/Starblastio/" target="_blank">
+                        <i class="sbg sbg-reddit"></i>
+                        <br>uWu
+                    </a>
+                    <a href="https://discord.gg/85qN8F2gJf" target="_blank">
+                        <i class="sbg sbg-discord"></i>
+                        <br>L Community
+                    </a>
+                    <a href="https://starblastio.gamepedia.com" target="_blank">
+                        <i class="sbg sbg-wiki"></i>
+                        <br>WIIIki
+                    </a>
+                    <a href="https://www.redbubble.com/fr/people/neuronality/collections/925374-starblast" target="_blank">
+                        <i class="sbg sbg-gift"></i>
+                        <br>Mewch
+                    </a>
+                </div>
+                <div class="textcentered community changelog-new" data-translate-base="community" lang="fr">
+                    <a href="https://www.reddit.com/r/Starblastio/" target="_blank">
+                        <i class="sbg sbg-reddit"></i>
+                        <br>uWu
+                    </a>
+                    <a href="https://discord.gg/JwfJSFmXtn" target="_blank">
+                        <i class="sbg sbg-discord"></i>
+                        <br>L community
+                    </a>
+                    <a href="https://starblastio.gamepedia.com" target="_blank">
+                        <i class="sbg sbg-wiki"></i>
+                        <br>WIIIki
+                    </a>
+                    <a href="https://www.redbubble.com/fr/people/neuronality/collections/925374-starblast" target="_blank">
+                        <i class="sbg sbg-gift"></i>
+                        <br>Mewch
+                    </a>
+                </div>
+            </div>
+            <div class="social">
+                <div id="cgbottom"></div>
+                <br>
+                <i class="sbg sbg-info"></i>
+                <i class="sbg sbg-gears"></i>
+                <i class="sbg sbg-facebook">
+                    <span class="sbg sbg-diamond"></span>
+                </i>
+                <i class="sbg sbg-twitter">
+                    <span class="sbg sbg-diamond"></span>
+                </i>
+            </div>
+            <div class="followtools">
+                <a id="moddingspace" href="#" class="big">
+                    <i class="sbg sbg-modding"></i>
+                    <br/>
+                    <span data-translate="Other Bad Games">Other Bad Games</span>
+                </a>
+                <br/>
+                <a id="donate" href="#" class="big gold">
+                    <i class="fa ecplogo"></i>
+                    <br/>
+                    <span data-translate="Mf's pass">Mf's pass</span>
+                </a>
+                <br/>
+                <a id="rankings" href="#" class="big cup">
+                    <i class="fa fa-fw fa-trophy"></i>
+                    <br/>
+                    <span data-translate="L board">L board</span>
+                </a>
+                <br/>
+                <a data-display-only="en,fr" id="training" href="#" class="big">
+                    <i class="sbg sbg-fw sbg-fly-mid"></i>
+                    <br/>
+                    <span data-translate="Noobs Places">Noobs Place</span>
+                </a>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="mobile-social">
-      <br>
-    </div>
-    <div class="mobile-tools">
-      <br>
-      <br>
-      <i id="donate_mobile" class="sbg sbg-trophy"></i>
-    </div>
-    <div class="bottom-left">
-      <div class="changelog-new" data-translate-base="changelog_new" lang="en">
-        <div>
-          <h2 style="text-align:center">Scythe</h2>
-          <p>This is Scythe's cheat one client (no one must have it lmao)</p>
-          <p style="text-align:center;"><a target="_blank" href="https://starblast-shipyard.github.io/" alt="Loveship shipyard" style="text-decoration: underline">Starblast Shipyard</a></p>
+        <div class="modal">
+            <div class="header">
+                <span class="close-modal">&times;</span>
+                <span class="modaltitle"></span>
+            </div>
+            <div class="modalbody"></div>
         </div>
-      </div>
-      <div class="changelog-new" data-translate-base="changelog_new" lang="fr">
-        <div>
-          <p style="text-align:center;"><a target="_blank" href="https://starblast-shipyard.github.io/" alt="Loveship exoplanet shipyard" style="text-decoration: underline">Starblast Shipyard</a></p>
-        </div>
-      </div>
-      <div class="textcentered community changelog-new" data-translate-base="thing" lang="en">
-        <marquee scrollamount="2" height="20" width="100%" direction="right">I love myselfff awww ❤️❤️❤️❤️❤️❤️❤️</marquee>
-      </div>
-      <div class="textcentered community changelog-new" data-translate-base="music" lang="en">
-        <a href="https://open.spotify.com/user/gilpom/playlist/47N9rRbMXezlPXvhqVM3lJ?si=6bHzE9A9S-2TGh7C4OndkA" target="_blank"><svg viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-        <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.56-8-8-8zm3.68 11.56c-.16.24-.44.32-.68.16-1.88-1.16-4.24-1.4-7.04-.76-.28.08-.52-.12-.6-.36-.08-.28.12-.52.36-.6 3.04-.68 5.68-.4 7.76.88.28.12.32.44.2.68zm.96-2.2c-.2.28-.56.4-.84.2-2.16-1.32-5.44-1.72-7.96-.92-.32.08-.68-.08-.76-.4-.08-.32.08-.68.4-.76 2.92-.88 6.52-.44 9 1.08.24.12.36.52.16.8zm.08-2.24C10.16 5.6 5.88 5.44 3.44 6.2c-.4.12-.8-.12-.92-.48-.12-.4.12-.8.48-.92 2.84-.84 7.52-.68 10.48 1.08.36.2.48.68.28 1.04-.2.28-.68.4-1.04.2z" fill-rule="nonzero"></path></svg><br>
-        Spoteefly</a> <a href="https://www.deezer.com/playlist/5343057502" target="_blank"><svg viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-        <path d="M9.812 12.464h2.917v-.884H9.81v.884zm-6.54 0h2.916v-.884H3.27v.884zm-3.272 0h2.917v-.884H0v.884zm6.54 0h2.92v-.884H6.54v.884zm6.543 0H16v-.884h-2.917v.884zm0-1.15H16v-.883h-2.917v.89zm-6.542 0h2.92v-.883H6.54v.89zm-6.54 0h2.92v-.883H0v.89zm3.27 0h2.92v-.883H3.27v.89zm6.55 0h2.92v-.883H9.81v.89zm0-1.148h2.92v-.884H9.81v.884zm-6.54 0h2.91v-.884H3.27v.884zm-3.27 0h2.91v-.884H0v.884zm6.54 0h2.92v-.884H6.54v.884zm6.55 0H16v-.884h-2.917v.884zm0-1.15H16v-.883h-2.917v.884zm-6.54 0h2.91v-.883H6.54v.884zm-6.54 0h2.91v-.883H0v.884zm9.82 0h2.92v-.883H9.81v.884zm0-1.15h2.92v-.882H9.81v.883zm-9.82 0h2.91v-.88H0v.882zm6.54 0h2.92v-.88H6.54v.882zm6.54 0H16v-.882h-2.917v.884zM6.54 6.72h2.92v-.885H6.54v.884zm6.543-.002H16v-.883h-2.917v.883zM6.54 5.57h2.92v-.885H6.54v.885zm6.543 0H16v-.885h-2.917v.884zm0-1.15H16v-.884h-2.917v.884z"></path></svg><br>
-        Deeeznuts</a>
-      </div>
-      <div class="textcentered community changelog-new" data-translate-base="music" lang="fr">
-        <a href="https://open.spotify.com/user/gilpom/playlist/47N9rRbMXezlPXvhqVM3lJ?si=6bHzE9A9S-2TGh7C4OndkA" target="_blank"><svg viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-        <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.56-8-8-8zm3.68 11.56c-.16.24-.44.32-.68.16-1.88-1.16-4.24-1.4-7.04-.76-.28.08-.52-.12-.6-.36-.08-.28.12-.52.36-.6 3.04-.68 5.68-.4 7.76.88.28.12.32.44.2.68zm.96-2.2c-.2.28-.56.4-.84.2-2.16-1.32-5.44-1.72-7.96-.92-.32.08-.68-.08-.76-.4-.08-.32.08-.68.4-.76 2.92-.88 6.52-.44 9 1.08.24.12.36.52.16.8zm.08-2.24C10.16 5.6 5.88 5.44 3.44 6.2c-.4.12-.8-.12-.92-.48-.12-.4.12-.8.48-.92 2.84-.84 7.52-.68 10.48 1.08.36.2.48.68.28 1.04-.2.28-.68.4-1.04.2z" fill-rule="nonzero"></path></svg><br>
-        Spoteefly</a> <a href="https://www.deezer.com/playlist/5343057502" target="_blank"><svg viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-        <path d="M9.812 12.464h2.917v-.884H9.81v.884zm-6.54 0h2.916v-.884H3.27v.884zm-3.272 0h2.917v-.884H0v.884zm6.54 0h2.92v-.884H6.54v.884zm6.543 0H16v-.884h-2.917v.884zm0-1.15H16v-.883h-2.917v.89zm-6.542 0h2.92v-.883H6.54v.89zm-6.54 0h2.92v-.883H0v.89zm3.27 0h2.92v-.883H3.27v.89zm6.55 0h2.92v-.883H9.81v.89zm0-1.148h2.92v-.884H9.81v.884zm-6.54 0h2.91v-.884H3.27v.884zm-3.27 0h2.91v-.884H0v.884zm6.54 0h2.92v-.884H6.54v.884zm6.55 0H16v-.884h-2.917v.884zm0-1.15H16v-.883h-2.917v.884zm-6.54 0h2.91v-.883H6.54v.884zm-6.54 0h2.91v-.883H0v.884zm9.82 0h2.92v-.883H9.81v.884zm0-1.15h2.92v-.882H9.81v.883zm-9.82 0h2.91v-.88H0v.882zm6.54 0h2.92v-.88H6.54v.882zm6.54 0H16v-.882h-2.917v.884zM6.54 6.72h2.92v-.885H6.54v.884zm6.543-.002H16v-.883h-2.917v.883zM6.54 5.57h2.92v-.885H6.54v.885zm6.543 0H16v-.885h-2.917v.884zm0-1.15H16v-.884h-2.917v.884z"></path></svg><br>
-        Deeeznuts</a>
-      </div>
-      <div class="textcentered community changelog-new" data-translate-base="community" lang="en">
-        <a href="https://www.reddit.com/r/Starblastio/" target="_blank"><br>
-        uWu</a> <a href="https://discord.gg/85qN8F2gJf" target="_blank"><br>
-        L Community</a> <a href="https://starblastio.gamepedia.com" target="_blank"><br>
-        WIIIki</a> <a href="https://www.redbubble.com/fr/people/neuronality/collections/925374-starblast" target="_blank"><br>
-        Mewch</a>
-      </div>
-      <div class="textcentered community changelog-new" data-translate-base="community" lang="fr">
-        <a href="https://www.reddit.com/r/Starblastio/" target="_blank"><br>
-        uWu</a> <a href="https://discord.gg/JwfJSFmXtn" target="_blank"><br>
-        L community</a> <a href="https://starblastio.gamepedia.com" target="_blank"><br>
-        WIIIki</a> <a href="https://www.redbubble.com/fr/people/neuronality/collections/925374-starblast" target="_blank"><br>
-        Mewch</a>
-      </div>
-    </div>
-    <div class="social">
-      <div id="cgbottom"></div><br>
-    </div>
-    <div class="followtools">
-      <a id="moddingspace" href="#" class="big"><br>
-      <span data-translate="Other Bad Games">Other Bad Games</span></a><br>
-      <a id="donate" href="#" class="big gold"><br>
-      <span data-translate="Mf's pass">Mf's pass</span></a><br>
-      <a id="rankings" href="#" class="big cup"><br>
-      <span data-translate="L board">L board</span></a><br>
-      <a data-display-only="en,fr" id="training" href="#" class="big"><br>
-      <span data-translate="Noobs Places">Noobs Place</span></a>
-    </div>
-  </div>
-  <div class="modal">
-    <div class="header">
-      <span class="close-modal">×</span>
-    </div>
-    <div class="modalbody"></div>
-  </div>
-  <script type="application/ld+json">
+        <script type="application/ld+json">
             {
                 "@context": "http://schema.org",
                 "@type": "VideoGame",
@@ -2967,34 +3062,25 @@
                     "uploadDate": "2017-09-22",
                     "thumbnailUrl": "https://starblast.data.neuronality.com/img/screenshots/starblast.jpg"
                 }
-            }
-  </script> 
-  <script>
-
-
+            }</script>
+        <script>
             var gdactive = false;
-  </script> 
-  <script>
-
-
+        </script>
+        <script>
             var cgactive = false;
-  </script> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/85/three.min.js"></script> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.min.js" integrity="sha256-3zU5Lr4nIt3K/BgGOQMduajtZcPV9elIM/23RDXRp3o=" crossorigin="anonymous"></script> 
-  <script src="https://starblast.io/static/js/atcb.min.js"></script> 
-  <script>
-
-
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/85/three.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.min.js" integrity="sha256-3zU5Lr4nIt3K/BgGOQMduajtZcPV9elIM/23RDXRp3o=" crossorigin="anonymous"></script>
+        <script src="https://starblast.io/static/js/atcb.min.js"></script>
+        <script>
             var sdflogo = '<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="152" height="172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path d="M70.396,0l19.067,41.667l39.802,16.534l10.705,-10.902l-6.012,35.024l-49.189,4.642l-5.533,8.866l-13.582,0.115l-5.98,-8.104l-48.561,-5.646l-3.529,-33.562l10.259,10.495l36.551,-16.657l16.002,-42.472Z" style="fill:#fff;"/><path d="M129.294,79.457l-127.22,73.318l26.274,-2.885l-16.027,20.667l127.22,-73.319l6.128,-15.684l-16.375,-2.097Z" style="fill:#fff;"/><path d="M142.63,152.687l-127.212,-73.331l-15.418,3.391l5.169,14.39l127.212,73.331l-15.942,-20.335l26.191,2.554Z" style="fill:#fff;"/></svg>';
             var b64 = btoa(sdflogo);
             var domurl = self.URL || self.webkitURL || self;
             var sdflogoimg = new Image();
             sdflogoimg.src = "data:image/svg+xml;base64," + b64;
-  </script> 
-  <script id="donatebox" type="text/x-template">
-
-
+        </script>
+        <script id="donatebox" type="text/x-template">
             
         <h2 data-translate="Buy Starblast and become an Elite Commander!"></h2>
         <ul>
@@ -3061,10 +3147,8 @@
         </form>
         <p data-translate="For any problem with your ECP key, please e-mail us at contact@neuronality.com, we will help as soon as we can!"></p>
     
-  </script> 
-  <script id="gameinfos" type="text/x-template">
-
-
+        </script>
+        <script id="gameinfos" type="text/x-template">
             
         <div id='infologo'></div>
         <h2>Gameplay</h2>
@@ -3147,10 +3231,8 @@
         * <a href="https://www.crazygames.com/c/io">io games on CrazyGames</a>
         </p>
     
-  </script> 
-  <script>
-
-
+        </script>
+        <script>
             (function(s, t, a, r, b, l, i, o) {
                 var saveAs, O0lOI, extend, hasProp, O0OOl, OOlO1, BuyWeaponButton, HealingButton, RemoveWeaponButton, StoreCountDown, TransferButton, WeaponStoreBackground, WeaponStoreExitButton, WeaponStorePlaceholder, WeaponStoreShipView, WeaponStoreTitle, deepspaceworker, workerfunk, nebulasworker, Scene, OOO10, OO0Ol, O1101, OOlI1, BATTLE_SHIP_TYPES, WEAPON_TYPES, ALIEN_TYPES, Il1l1, ll1IO, OIOO0, IOOl1, OIOlO, STATION_MODULES, ATTACK_POD_MODEL, DEFENCE_POD_MODEL, MINING_POD_MODEL, i, MISSILE_MODEL, ROCKET_MODEL, TORPEDO_MODEL, MINE2_MODEL, MINE_MODEL, j, k, l, m, expand, indexOf, bind, IFrameDetection, II0lI, base, lIO0O, BATTLE_SHIPS, arrayMult, ALIEN_MODELS, HALO_MODELS, GIFT_MODEL, PUMPKIN_MODEL, battle_finished, battle_started, OOII0, exportShipTree, lIIl1, gamesettings, Translations, t, texists, translations;
                 !function(t) {
@@ -37402,12 +37484,12 @@
                                 filter: "default,app,mobile"
                             }, 
                             backgrounds: {
-                                                    name: "Backgrounds",
-                                                    value: "none",
-                                                    type: "select",
-                                                    options: ["none", "Witch", "Chanterelle", "Chess", "Interworld", "Rize", "Satoru Gojo", "Omega wal", "background chill"],
-                                                    filter: "default,app,mobile"
-                                            },
+					            name: "Backgrounds",
+					            value: "none",
+					            type: "select",
+					            options: ["none", "Witch", "Chanterelle", "Chess", "Interworld", "Rize", "Satoru Gojo", "Omega wal", "background chill"],
+					            filter: "default,app,mobile"
+				            },
                             language: {
                                 name: "Language",
                                 value: !1,
@@ -37429,54 +37511,54 @@
                         this.auto = JSON.parse(localStorage.getItem("auto") || "true"); // Обратите внимание на "true" вместо !0
             this.forced = {};
             for (var a in this.parameters) {
-                                                if (!localStorage.getItem("maincrystalcolor")) {
-                                                        localStorage.setItem("maincrystalcolor", JSON.stringify("#FF0000"));
-                                                }
+						if (!localStorage.getItem("maincrystalcolor")) {
+							localStorage.setItem("maincrystalcolor", JSON.stringify("#FF0000"));
+						}
 
-                                                if (!localStorage.getItem("secondcrystalcolor")) {
-                                                        localStorage.setItem("secondcrystalcolor", JSON.stringify("#FF8080"));
-                                                }
+						if (!localStorage.getItem("secondcrystalcolor")) {
+							localStorage.setItem("secondcrystalcolor", JSON.stringify("#FF8080"));
+						}
 
-                                                if (!localStorage.getItem("backgrounds")) {
-                                                        localStorage.setItem("backgrounds", JSON.stringify("none"));
-                                                }
+						if (!localStorage.getItem("backgrounds")) {
+							localStorage.setItem("backgrounds", JSON.stringify("none"));
+						}
 
-                                                if (localStorage.getItem(a)) {
-                                                        this.parameters[a].stored = true;
-                                                        this.parameters[a].value = JSON.parse(localStorage.getItem(a));
+						if (localStorage.getItem(a)) {
+							this.parameters[a].stored = true;
+							this.parameters[a].value = JSON.parse(localStorage.getItem(a));
 
-                                                        if (a === "emoji") {
-                                                                emojiCount = this.parameters[a].value;
-                                                        }
+							if (a === "emoji") {
+								emojiCount = this.parameters[a].value;
+							}
 
-                                                        if (a === "maincrystalcolor") {
-                                                                MainCrystalColor = parseInt(this.parameters[a].value.replace(/^#/, ''), 16);
+							if (a === "maincrystalcolor") {
+								MainCrystalColor = parseInt(this.parameters[a].value.replace(/^#/, ''), 16);
 
-                                                                if (!this.parameters[a].value) {
-                                                                        localStorage.setItem("secondcrystalcolor", JSON.stringify("#FF0000"));
-                                                                }
-                                                        }
+								if (!this.parameters[a].value) {
+									localStorage.setItem("secondcrystalcolor", JSON.stringify("#FF0000"));
+								}
+							}
 
-                                                        if (a === "secondcrystalcolor") {
-                                                                SecondCrystalColor = parseInt(this.parameters[a].value.replace(/^#/, ''), 16);
+							if (a === "secondcrystalcolor") {
+								SecondCrystalColor = parseInt(this.parameters[a].value.replace(/^#/, ''), 16);
 
-                                                                if (!this.parameters[a].value) {
-                                                                        localStorage.setItem("maincrystalcolor", JSON.stringify("#FF0000"));
-                                                                }
-                                                        }
+								if (!this.parameters[a].value) {
+									localStorage.setItem("maincrystalcolor", JSON.stringify("#FF0000"));
+								}
+							}
 
-                                                        if (a === "backgrounds") {
-                                                                Background = this.parameters[a].value;
+							if (a === "backgrounds") {
+								Background = this.parameters[a].value;
 
-                                                                if (!this.parameters[a].value) {
-                                                                        localStorage.setItem("backgrounds", JSON.stringify("none"));
-                                                                }
-                                                        }
+								if (!this.parameters[a].value) {
+									localStorage.setItem("backgrounds", JSON.stringify("none"));
+								}
+							}
 
-                                                        if ("range" === this.parameters[a].type) {
-                                                                this.parameters[a].value = this.parameters[a].value === true ? 1 : (this.parameters[a].value === false ? 0 : this.parameters[a].value);
-                                                        }
-                                                }
+							if ("range" === this.parameters[a].type) {
+								this.parameters[a].value = this.parameters[a].value === true ? 1 : (this.parameters[a].value === false ? 0 : this.parameters[a].value);
+							}
+						}
                     }
 
                     if (!this.parameters.language.value) {
@@ -54963,6 +55045,6 @@
   });
 
 
-  </script>
-</body>
+        </script>
+    </body>
 </html>
