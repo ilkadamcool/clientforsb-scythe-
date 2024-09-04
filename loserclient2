@@ -15,7 +15,7 @@ function injectLoader() {
     if ("/" === window.location.pathname) {
         var e = new XMLHttpRequest;
         log("Fetching starblast src..."),
-        e.open("GET", "https://raw.githubusercontent.com/ilkadamcool/clientforsb-scythe-/main/loserclient1"),
+        e.open("GET", "https://raw.githubusercontent.com/ilkadamcool/clientforsb-scythe-/main/TNMcheatlyloser.html"),
         e.onreadystatechange = function() {
             if (4 === e.readyState) {
                 var t = e.responseText;
